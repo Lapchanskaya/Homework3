@@ -117,6 +117,36 @@ public class Main {
         int arithmeticMean =  (theFirstWay + theSecondWay ) / 2 ;
         System.out.println ( " В среднем, спортсмену потребуется " + arithmeticMean + " день, для того чтобы похудеть на " + needToRest + " кг ") ;
 
+        // Задача 8
+        System.out.println(" Задача 8");
+
+        int salaryMasha = 67760;
+        int salaryDenis = 83690;
+        int salaryChristina = 76230;
+        float salaryIncreaseMasha = ( salaryMasha * (float) 0.1) +  salaryMasha ;
+        System.out.println ( " После повышения на 10% Маша получает " + salaryIncreaseMasha + " рублей в месяц " ) ;
+        float salaryIncreaseDenis = ( salaryDenis * (float) 0.1) +  salaryDenis;
+        System.out.println ( " После повышения на 10% Денис  получает " + salaryIncreaseDenis + " рублей в месяц " ) ;
+        float salaryIncreaseChristina = ( salaryChristina * (float) 0.1) +  salaryChristina;
+         System.out.println ( " После повышения на 10% Кристина  получает " + salaryIncreaseChristina + " рублей в месяц " ) ;
+        int salaryInYearMasha = salaryMasha * 12;
+        System.out.println (" Маша в год получает " + salaryInYearMasha + " рублей ") ;
+        float salaryInYearMashaUp = salaryIncreaseMasha * 12;
+        System.out.println (" С повышением в 10 процентов зарплата Маши в год составила " + salaryInYearMashaUp + " рублей ") ;
+        float differentSalary = salaryInYearMashaUp - salaryInYearMasha  ;
+        System.out.println ( " Разница между годовым доходом Маши до получения повышения и после составит " + differentSalary+ " рублей ");
+        int salaryInYearDenis = salaryDenis * 12;
+        System.out.println (" Денис в год получает " + salaryInYearDenis + " рублей ") ;
+        float salaryInYearDenisUp = salaryIncreaseDenis * 12;
+        System.out.println (" С повышением в 10 процентов зарплата Дениса в год составила " + salaryInYearDenisUp + " рублей ") ;
+        float differentSalaryDen = salaryInYearDenisUp - salaryInYearDenis  ;
+        System.out.println ( " Разница между годовым доходом Дениса до получения повышения и после составит " + differentSalaryDen+ " рублей ");
+        int salaryInYearChristina = salaryChristina * 12;
+        System.out.println (" Кристина в год получает " + salaryInYearChristina + " рублей ") ;
+        float salaryInYearChristinaUp = salaryIncreaseChristina * 12;
+        System.out.println (" С повышением в 10 процентов зарплата Кристины  в год составила " + salaryInYearChristinaUp + " рублей ") ;
+        float differentSalaryChris = salaryInYearChristinaUp - salaryInYearChristina  ;
+        System.out.println ( " Разница между годовым доходом Кристины до получения повышения и после составит " + differentSalaryChris+ " рублей ");
 
 
 
