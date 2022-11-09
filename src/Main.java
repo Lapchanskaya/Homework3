@@ -4,7 +4,7 @@ public class Main {
         // Задача 1
         System.out.println(" Задача 1");
 
-        Byte courses = 4;
+        byte courses = 4;
         System.out.println(" Значение переменной courses c типом byte = " + courses);
         short semesters = 8;
         System.out.println(" Значение переменной semesters c типом short = " + semesters);
