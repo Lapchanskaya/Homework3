@@ -83,6 +83,27 @@ public class Main {
         int totalBrownPaint = brownPaintInOneClass * totalClasses ;
         System.out.println(" В школе, где " +  totalClasses + " классов, нужно " + totalWhitePaint + " банок белой краски и " + totalBrownPaint + " банок коричневой краски");
 
+        // Задача 6
+        System.out.println(" Задача 6");
+
+        int OneBanana = 80;
+        int fiveBananas = OneBanana * 5;
+        System.out.println ("Пять бананов весят " + fiveBananas + " грамм" ) ;
+        int milk100Ml = 105;
+        int milk200Ml = milk100Ml * 2;
+        System.out.println (" 200 миллилитров молока  " + milk200Ml + " грамм" ) ;
+        int iceCream = 2 * 100;
+        System.out.println (" 2 брикета мороженного  " + iceCream + " грамм" ) ;
+        int oneEgg = 70;
+        int fourEggs = oneEgg * 4;
+        System.out.println (" 4 яйца  " +  fourEggs + " грамм" ) ;
+        int totaldishes = fiveBananas + milk200Ml + iceCream + fourEggs;
+        System.out.println ( " Вес блюда " + totaldishes + " грамм") ;
+        int grPerKg = 1000;
+        float weightKg = totaldishes/(float)grPerKg;
+        System.out.println ( " Вес блюда " + weightKg + " килограмм") ;
+
+
 
 
 
