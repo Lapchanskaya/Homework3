@@ -37,6 +37,20 @@ public class Main {
      byte variable8 = 67;
      System.out.println( variable8);
 
+        // Задача 3
+        System.out.println(" Задача 3");
+
+        int classA = 23;
+        int classB = 27;
+        int classC = 30;
+        int paper = 480;
+        int result = classA + classB + classC;
+        System.out.println("Всего в школе " + result + " учеников");
+        int numberOfSheets = paper / result;
+        System.out.println("На каждого ученика рассчитано " + numberOfSheets + " листов бумаги");
+
+
+
 
 
 
