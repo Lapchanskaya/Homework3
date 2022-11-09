@@ -72,6 +72,16 @@ public class Main {
       // Задача 5
         System.out.println(" Задача 5");
 
+       int totalCans = 120;
+       int whitePaintInOneClass = 2;
+       int brownPaintInOneClass = 4;
+       int totalPaintInOneClass = whitePaintInOneClass + brownPaintInOneClass;
+        System.out.println(" Всего в одном классе используют " + totalPaintInOneClass + " банок краски" );
+       int totalClasses = totalCans / totalPaintInOneClass;
+        System.out.println(" Всего в школе " + totalClasses + " классов." );
+        int totalWhitePaint = whitePaintInOneClass * totalClasses ;
+        int totalBrownPaint = brownPaintInOneClass * totalClasses ;
+        System.out.println(" В школе, где " +  totalClasses + " классов, нужно " + totalWhitePaint + " банок белой краски и " + totalBrownPaint + " банок коричневой краски");
 
 
 
