@@ -49,6 +49,29 @@ public class Main {
         int numberOfSheets = paper / result;
         System.out.println("На каждого ученика рассчитано " + numberOfSheets + " листов бумаги");
 
+        // Задача 4
+        System.out.println(" Задача 4");
+
+        int twoBottles = 16;
+        int productionTime = 2;
+        int bottlePer20Minute = 20;
+        int productionTimePerDay = 24 * 60;
+        int productionTimeIn3Days = 3 * productionTimePerDay;
+        int productionTimeInMonth = 10 * productionTimeIn3Days ;
+        int bottlePerMinute = twoBottles / productionTime;
+        System.out.println("Машина делает  " + bottlePerMinute + " бутылок в минуту");
+        int bottlePer20 = bottlePerMinute * bottlePer20Minute;
+        System.out.println(" За " + bottlePer20Minute+ " минут машина произвела бутылок " + bottlePer20 + " штук");
+        int bottlePerDay = bottlePerMinute * productionTimePerDay;
+        System.out.println( " За " + productionTimePerDay + " минут машина произвела бутылок " + bottlePerDay + " штук ");
+        int bottlePer3Days = bottlePerMinute * productionTimeIn3Days;
+        System.out.println(" За " + productionTimeIn3Days + " минут машина произвела бутылок " + bottlePer3Days + " штук");
+        int bottlePerMonths = bottlePerMinute * productionTimeInMonth ;
+        System.out.println(" За " + productionTimeInMonth+  " минут машина произвела бутылок " + bottlePerMonths + " штук");
+
+      // Задача 5
+        System.out.println(" Задача 5");
+
 
 
 
