@@ -103,7 +103,19 @@ public class Main {
         float weightKg = totaldishes/(float)grPerKg;
         System.out.println ( " Вес блюда " + weightKg + " килограмм") ;
 
-
+        // Задача 7
+        System.out.println(" Задача 7");
+         int needToRest = 7;
+        int grPerKg2 = 1000;
+        int needToRestGr = needToRest * grPerKg2;
+        int loose1 = 250;
+        int loose2 = 500;
+        int theFirstWay = needToRestGr / loose1 ;
+        System.out.println ( "Если спортсмен будет терять " + loose1 + " грамм в день то он похудеет на " + needToRest + " кг за " + theFirstWay + " дней ") ;
+        int theSecondWay = needToRestGr / loose2 ;
+        System.out.println ( "Если спортсмен будет терять " + loose2 + " грамм в день то он похудеет на " + needToRest + " кг за " + theSecondWay + " дней ") ;
+        int arithmeticMean =  (theFirstWay + theSecondWay ) / 2 ;
+        System.out.println ( " В среднем, спортсмену потребуется " + arithmeticMean + " день, для того чтобы похудеть на " + needToRest + " кг ") ;
 
 
 
