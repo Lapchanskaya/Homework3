@@ -17,6 +17,33 @@ public class Main {
         double numberForPi = 3.1415926535;
         System.out.println(" Значение переменной number for Pi c типом double = " + numberForPi);
 
+       // Задача 2
+        System.out.println(" Задача 2");
+
+     float variable1 = 27.12f;
+     System.out.println( variable1);
+     long variable2 = 987_678_965_549L;
+     System.out.println( variable2);
+     double variable3 = 2.786;
+     System.out.println( variable3);
+     boolean variable4 = false;
+     System.out.println( variable4);
+     char variable5 = 569;
+     System.out.println( variable5);
+     short variable6 = -159;
+     System.out.println( variable6);
+     int variable7 = 27897;
+     System.out.println( variable7);
+     byte variable8 = 67;
+     System.out.println( variable8);
+
+
+
+
+
+
+
+
 
 
 
